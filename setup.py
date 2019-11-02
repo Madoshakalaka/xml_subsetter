@@ -33,7 +33,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version="0.0.0",  # Required
+    version="0.0.1",  # Required
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
@@ -129,7 +129,7 @@ setup(
     # Similar to `install_requires` above, these must be valid existing
     # projects.
     #
-    # extras_require={"dev": ["check-manifest"], "test": ["coverage"]},  # Optional
+    extras_require={"dev": ["pytest"]},
     #
     # If there are data files included in your packages that need to be
     # installed, specify them here.
